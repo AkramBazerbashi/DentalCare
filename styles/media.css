@@ -1,0 +1,321 @@
+@media (min-width: 350px) {
+  .dentist .up img {
+    margin-top: 10px;
+  }
+  .dentist .down {
+    text-align: center;
+  }
+  .dentist .down img {
+    width: 150px;
+    position: relative;
+    top: -20px;
+  }
+}
+
+@media (min-width: 500px) {
+  .heroCon .image img {
+    width: 400px !important;
+  }
+  .dentist .up h2:first-of-type {
+    font-size: 32px !important;
+  }
+  .dentist .up h2:nth-of-type(2) {
+    font-size: 64px !important;
+  }
+  .dentist .down img {
+    width: 250px;
+  }
+  .services .down div {
+    width: 50%;
+  }
+  .book .bookCon .left {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: auto;
+  }
+  .book .bookCon .left img {
+    width: 400px;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 20px;
+  }
+  .con .heroCon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .con .heroCon .hero {
+    width: 50%;
+    height: 510px;
+  }
+  .con .heroCon .image {
+    top: 70px;
+    right: 70px;
+  }
+  .con .heroCon .image img {
+    width: 400px;
+  }
+  .dentist {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .dentist .up {
+    width: 60%;
+  }
+  .dentist .down {
+    margin-top: 50px;
+  }
+  .dentist .down img {
+    width: 300px;
+  }
+  .services .up h3 {
+    font-size: 40px;
+  }
+  .services .up h2 {
+    font-size: 56px;
+  }
+  .services .down div {
+    width: 33%;
+  }
+  .services .down div p {
+    width: 80%;
+  }
+  .book {
+    margin-bottom: 3em;
+  }
+  .book > .title p {
+    font-size: 40px;
+  }
+  .book .bookCon {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .book .bookCon .left {
+    width: 30%;
+    margin-inline: 0;
+  }
+  .book .bookCon .left img {
+    max-width: 100%;
+  }
+  .book .bookCon .right {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .book .bookCon .right h2 {
+    margin-top: 0;
+    font-size: 20px;
+  }
+  .book .bookCon .right div p {
+    font-size: 16px;
+  }
+  .aboutDentist div.card {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: auto;
+  }
+  footer .medium iframe {
+    width: 500px;
+  }
+}
+
+@media (min-width: 950px) {
+  .con .heroCon {
+    height: 660px;
+  }
+  .con .heroCon .image {
+    top: -60px;
+    right: 75px;
+  }
+  .con .heroCon .image img {
+    width: 600px !important;
+  }
+  .testimonials .swiper {
+    height: 500px;
+  }
+  :root {
+    --swiper-pagination-bullet-width: 16px;
+    --swiper-pagination-bullet-height: 16px;
+    --swiper-pagination-bullet-horizontal-gap: 8px;
+  }
+  .aboutDentist > div.card .imageCon {
+    width: 250px;
+    height: 250px;
+  }
+  .aboutDentist > div.card .imageCon img {
+    width: 250px;
+    height: 250px;
+  }
+  .aboutDentist > div.card p {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .menuHeader .con header {
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+  .menuHeader .con header > .up .hum {
+    display: none;
+  }
+  .menuHeader .con header > .up .right {
+    display: block;
+    z-index: 2;
+  }
+  .menuHeader .con header hr {
+    display: block;
+  }
+  .menuHeader .con header > .down {
+    position: relative;
+    z-index: 2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  .menuHeader .con header > .down > .left nav > ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .menuHeader .con header > .down > .left nav > ul > li {
+    padding: 1em;
+    text-align: center;
+  }
+  .menuHeader .con header > .down > .left nav > ul > li > a {
+    color: white;
+  }
+  .menuHeader .con header > .down > .left nav > ul > li .ball {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: white;
+    margin: auto;
+    margin-top: 15px;
+    visibility: hidden;
+    display: none;
+  }
+  .menuHeader .con header > .down > .left nav > ul > li:hover {
+    background-color: rgba(253, 171, 183, 0.7);
+    cursor: pointer;
+  }
+  .menuHeader .con header > .down > .left nav > ul > li:first-child {
+    background-color: rgba(253, 171, 183, 0.7);
+  }
+  .menuHeader .con header > .down .right .social {
+    width: 30%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .menuHeader .con header > .down .right .social i {
+    color: white;
+    margin-left: 1em;
+  }
+  .menuHeader .con header > .down .right .social i:hover {
+    color: #fdabb7;
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+  }
+  .menuHeader .con .heroCon {
+    height: 590px;
+  }
+  .menuHeader .con .heroCon .hero {
+    padding-left: 3em;
+    padding-right: 0em;
+    margin-left: 4em;
+  }
+  .menuHeader .con .heroCon .hero h3 {
+    font-size: 50px;
+  }
+  .menuHeader .con .heroCon .hero h2 {
+    font-size: 150px;
+    line-height: 150px;
+  }
+  .menuHeader .con .heroCon .hero P {
+    font-size: 18px;
+    width: 65%;
+  }
+  .menuHeader .con .heroCon .image {
+    top: -130px;
+    right: 106px;
+  }
+  .menuHeader .con .heroCon .image img {
+    width: 800px;
+  }
+  .testimonials .swiper {
+    height: 400px;
+  }
+  .dentist {
+    padding-left: 3em !important;
+    padding-right: 3em !important;
+  }
+  .dentist .down img {
+    width: 400px;
+  }
+  .book .bookCon .middle form input {
+    font-size: 20px;
+  }
+  .book .bookCon .middle form input[type="submit"] {
+    font-size: 20px;
+  }
+  .book .bookCon .right h2 {
+    font-size: 30px;
+  }
+  .book .bookCon .right div p {
+    font-size: 20px;
+  }
+  footer {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding-block: 2em;
+  }
+  footer .left {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 30%;
+  }
+  footer .left p {
+    text-align: start;
+  }
+  footer .medium iframe {
+    width: 400px;
+  }
+}
+/*# sourceMappingURL=media.css.map */
