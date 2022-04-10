@@ -71,6 +71,8 @@ p::selection {
   position: fixed;
   padding: 3em 3em;
   z-index: 3;
+  height: 100vh;
+  overflow: auto;
 }
 
 .menu .up {
@@ -154,7 +156,7 @@ p::selection {
 }
 
 .menu .down {
-  height: 250px;
+  height: 300px;
   margin-top: 2em;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 1rem;
@@ -178,37 +180,62 @@ p::selection {
 }
 
 .menu .down nav > ul > li {
-  padding: 1em;
   width: 150px;
   text-align: center;
 }
 
 .menu .down nav > ul > li > a {
   color: white;
+  display: inline-block;
 }
 
 .menu .down nav > ul > li:hover {
-  background-color: #fdabb7;
+  background-color: rgba(253, 171, 183, 0.7);
 }
 
 .menu .down nav > ul > li:first-child {
-  background-color: #fdabb7;
+  background-color: rgba(253, 171, 183, 0.7);
 }
 
 .menu .down nav > ul > li::after {
   content: '';
   display: block;
-  width: 126%;
+  width: 100%;
   height: 1px;
   background-color: white;
   position: relative;
-  top: 17px;
-  left: -16px;
+  top: 0px;
+  left: 0px;
   opacity: 0.3;
 }
 
 .menu .down nav > ul > li:last-child:after {
   display: none;
+}
+
+.menu .down nav > ul > li:first-child a {
+  padding-inline: 55px;
+  padding-block: 21px;
+}
+
+.menu .down nav > ul > li:nth-child(2) a {
+  padding-inline: 43px;
+  padding-block: 21px;
+}
+
+.menu .down nav > ul > li:nth-child(3) a {
+  padding-inline: 42px;
+  padding-block: 21px;
+}
+
+.menu .down nav > ul > li:nth-child(4) a {
+  padding-inline: 37px;
+  padding-block: 21px;
+}
+
+.menu .down nav > ul > li:last-child a {
+  padding-inline: 26px;
+  padding-block: 21px;
 }
 
 .menu .social {
@@ -230,6 +257,8 @@ p::selection {
 
 .menu .social i:hover {
   color: #fdabb7;
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
 }
 
 .openMenu {
@@ -1166,6 +1195,31 @@ footer .right ul li:last-child div p:first-of-type {
   width: 100%;
 }
 
+.made {
+  font-size: 12px;
+  background-color: #fdabb7;
+  padding-block: 20px;
+}
+
+.made hr {
+  margin-top: 0;
+  margin-bottom: 20px;
+  height: 1px;
+  background-color: #343D4B;
+  color: #343D4B;
+}
+
+.made p {
+  text-align: center;
+  color: white;
+}
+
+.made p a {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #343D4B;
+}
+
 .showA {
   visibility: visible !important;
 }
@@ -1201,5 +1255,9 @@ footer .right ul li:last-child div p:first-of-type {
 
 .arrow-hide {
   visibility: hidden;
+}
+
+.stopScroll {
+  overflow: hidden;
 }
 /*# sourceMappingURL=style.css.map */

@@ -10,6 +10,45 @@ burger.addEventListener('click', function () {
 
 hum.addEventListener('click', function () {
     menu.classList.toggle('openMenu');
+    document.body.classList.toggle('stopScroll');
+});
+
+
+
+const a1 = document.getElementById('a1');
+const a2 = document.getElementById('a2');
+const a3 = document.getElementById('a3');
+const a4 = document.getElementById('a4');
+const a5 = document.getElementById('a5');
+
+a1.addEventListener('click', () => {
+    burger.classList.toggle('toggled');
+    menu.classList.toggle('openMenu');
+    document.body.classList.toggle('stopScroll');
+});
+
+a2.addEventListener('click', () => {
+    burger.classList.toggle('toggled');
+    menu.classList.toggle('openMenu');
+    document.body.classList.toggle('stopScroll');
+});
+
+a3.addEventListener('click', () => {
+    burger.classList.toggle('toggled');
+    menu.classList.toggle('openMenu');
+    document.body.classList.toggle('stopScroll');
+});
+
+a4.addEventListener('click', () => {
+    burger.classList.toggle('toggled');
+    menu.classList.toggle('openMenu');
+    document.body.classList.toggle('stopScroll');
+});
+
+a5.addEventListener('click', () => {
+    burger.classList.toggle('toggled');
+    menu.classList.toggle('openMenu');
+    document.body.classList.toggle('stopScroll');
 });
 
 

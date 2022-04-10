@@ -1,9 +1,7 @@
 @media (min-width: 350px){
     .dentist {
         .up {
-            h2:first-of-type {
-                
-            }
+            
             img{
                 margin-top: 10px;
             }
@@ -241,12 +239,13 @@
                                 align-items: center;
                                 justify-content: space-between;
                                 >li {
-                                    padding: 1em;
-                                    
                                     text-align: center;
+                                    margin-right: 10px;
                                     
                                     >a {
+                                        display: inline-block;
                                         color: white;
+                                        padding: 1em;
                                     }
 
                                     .ball {

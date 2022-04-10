@@ -209,11 +209,13 @@
             justify-content: space-between;
   }
   .menuHeader .con header > .down > .left nav > ul > li {
-    padding: 1em;
     text-align: center;
+    margin-right: 10px;
   }
   .menuHeader .con header > .down > .left nav > ul > li > a {
+    display: inline-block;
     color: white;
+    padding: 1em;
   }
   .menuHeader .con header > .down > .left nav > ul > li .ball {
     width: 8px;
