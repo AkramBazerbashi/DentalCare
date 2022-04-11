@@ -697,6 +697,10 @@ p::selection {
                     background-color: $color1;
                     font-weight: bold;
                 }
+                input[type= "submit"]:hover {
+                transform: scale(1.1);
+                cursor: pointer;
+                }
             }
         }
         .right {
@@ -1066,3 +1070,6 @@ footer {
 .stopScroll {
     overflow: hidden;
 }
+
+
+

@@ -118,6 +118,9 @@ document.addEventListener('scroll', function () {
         arrow.classList.add('arrow-hide');
         arrow.classList.remove('arrow-show');
     }
-    console.log(window.scrollY);
-
 });
+
+
+
+
+
