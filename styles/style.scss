@@ -60,6 +60,7 @@ margin: 0;
 font-family: 'Roboto', sans-serif;
 }
 
+
 .fonts{
     font-family: 'Playfair Display', serif;
     font-family: 'Roboto', sans-serif;
@@ -692,6 +693,8 @@ p::selection {
                     margin-top: $my-1x;
                     padding: $px-1x;
                     border-radius: 4px;
+                    outline: none;
+                    color: $color2;
                 }
                 input[type= "submit"] {
                     background-color: $color1;

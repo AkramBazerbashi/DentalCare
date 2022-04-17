@@ -1,0 +1,54 @@
+.services, .aboutDentist, .book, .dentist, .testimonials, .heroCon, .made {
+  direction: rtl !important;
+}
+
+header .up .left {
+  z-index: 2;
+}
+
+.heroCon .hero p {
+  color: #343D4B !important;
+}
+
+.dentist .up hr {
+  margin-left: 440px;
+}
+
+.testimonialsCon .swiper .swiper-wrapper .t div div {
+  margin-left: unset !important;
+  margin-right: 20px !important;
+}
+
+@media (min-width: 768px) {
+  .heroCon .image {
+    right: unset !important;
+    left: 70px !important;
+  }
+  .hero h2 {
+    font-size: 79px !important;
+  }
+}
+
+@media (min-width: 950px) {
+  .heroCon .image {
+    right: unset !important;
+    left: 75px !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .heroCon .hero {
+    padding-left: 0em !important;
+    padding-right: 3em !important;
+    margin-left: unset !important;
+    margin-right: 4em !important;
+  }
+  .heroCon .image {
+    right: unset !important;
+    left: 106px !important;
+  }
+  .hero h2 {
+    font-size: 110px !important;
+  }
+}
+/*# sourceMappingURL=styleAr.css.map */

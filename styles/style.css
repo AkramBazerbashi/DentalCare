@@ -793,6 +793,8 @@ p::selection {
   margin-top: 1em;
   padding: 1em;
   border-radius: 4px;
+  outline: none;
+  color: #343D4B;
 }
 
 .book .bookCon .middle form input[type="submit"] {
