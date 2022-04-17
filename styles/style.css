@@ -19,10 +19,18 @@ a {
   color: black;
 }
 
+input, button, textarea {
+  font: inherit;
+}
+
 body {
   padding: 0;
   margin: 0;
   font-family: 'Roboto', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .fonts {
